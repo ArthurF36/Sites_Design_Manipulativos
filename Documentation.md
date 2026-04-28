@@ -7,10 +7,10 @@ Este repositório utiliza códigos Python para execução de alguns objetivos do
 
 ## 📦 Instalar Dependências
 
-Antes de executar, abra o terminal (`Ctrl + Shift + C`) e instale as bibliotecas necessárias:
+As dependências são instaladas automaticamente no GitHub Codespaces. Caso ocorra algum erro ou caso esteja utilizando outra IDE, abra o terminal (`Ctrl + Shift + C`) e execute:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -q -r requirements.txt
 ```
 
 Esse comando instala as dependências no mesmo ambiente Python configurado no projeto.
@@ -18,7 +18,9 @@ Esse comando instala as dependências no mesmo ambiente Python configurado no pr
 Obs: Execute este comando após clonar o repositório. Apenas repita esse processo se houver mudança no ambiente Python ou no arquivo requirements.txt.
 
 
-## 💻 Executar Pelo Terminal
+## Execução
+
+### 💻 Executar Pelo Terminal
 
 No diretório do projeto, execute:
 
@@ -34,7 +36,7 @@ python main.py
 
 ---
 
-## ▶ Executar Pelo Botão Run
+### ▶ Executar Pelo Botão Run
 
 1. Abra o arquivo `.py` desejado.
 2. Clique no botão **Run ▶** da IDE.
@@ -77,7 +79,7 @@ Esse script exibirá:
 Python: Select Interpreter
 ```
 
-3. Escolha o interpretador desejado.
+3. Escolha o interpretador desejado, preferencialmente o mesmo em que as dependências foram instaladas.
 
 Após isso, o botão **Run ▶** passará a utilizar o novo ambiente.
 
