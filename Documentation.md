@@ -7,7 +7,7 @@ Este repositório utiliza códigos Python para execução de alguns objetivos do
 
 ## 📦 Instalar Dependências
 
-Antes de executar, abra o terminal (Ctrl + Shift + C) e instale as bibliotecas necessárias:
+Antes de executar, abra o terminal (`Ctrl + Shift + C`) e instale as bibliotecas necessárias:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -41,7 +41,7 @@ python main.py
 
 A IDE utilizará o interpretador Python atualmente selecionado.
 
-Obs: Este caso estará apenas disponível se extenção de indioma Python estiver instalada
+Obs: Esta opção estará disponível apenas se a extensão Python estiver instalada. Caso contrário, acesse a aba **Extensões** (`Ctrl + Shift + X`), pesquise por **Python** e instale a extensão oficial da Microsoft.
 
 ---
 
