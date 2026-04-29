@@ -1,0 +1,315 @@
+{
+  "name": "www.ludoeducativo.com.br/pt/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados padrões claros de dark patterns; navegação simples, conteúdo educacional gratuito e categorizado por disciplinas e séries",
+  "security_risks": "Possível risco moderado relacionado a implementação de HTTPS inconsistente e ausência explícita de políticas detalhadas de privacidade; presença de login opcional pode envolver coleta básica de dados",
+  "confidence_level": "média"
+},
+{
+  "name": "www.fafaconta.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de gatilhos emocionais e persuasivos (ex: benefícios exagerados e linguagem motivacional), chamadas repetitivas de ação como \"quero começar agora\" e \"garantir vaga\", prova social (depoimentos e número de alunos), e técnicas de escassez implícita para incentivar compra de cursos e assinaturas",
+  "security_risks": "Risco baixo; uso de HTTPS e domínio antigo indicam confiabilidade, porém há dependência de plataformas externas para pagamento e ausência clara de políticas detalhadas de privacidade visíveis em todas as páginas",
+  "confidence_level": "média"
+},
+{
+  "name": "www.palavracantada.com.br",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados padrões manipulativos; o site tem foco educacional e cultural, oferecendo conteúdos como músicas, vídeos e atividades interativas de forma aberta e informativa",
+  "security_risks": "Baixo risco; trata-se de um site institucional com conteúdo infantil/educacional, sem indícios claros de práticas invasivas; ainda assim, pode haver coleta básica de dados via cookies e formulários",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.khanacademy.org/kids",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns; a plataforma é gratuita, sem anúncios ou compras internas, com foco educacional e progressão personalizada sem pressão comercial",
+  "security_risks": "Baixo risco; segue boas práticas de privacidade infantil (ex: conformidade com COPPA), não exibe anúncios e limita coleta de dados, embora utilize contas e rastreamento de progresso do usuário :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://futura.frm.org.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados padrões manipulativos; o site apresenta conteúdo educacional gratuito, com navegação informativa e sem pressão comercial, focado em cursos, videoaulas e conteúdos culturais",
+  "security_risks": "Baixo risco; trata-se de uma plataforma institucional vinculada à Fundação Roberto Marinho, com oferta de conteúdo gratuito e cadastro opcional (newsletter), podendo haver coleta básica de dados como e-mail :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.smartick.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de técnicas de persuasão como teste gratuito de 7 dias, chamadas frequentes para registro (\"try free\", \"register now\"), prova social (milhares de famílias, avaliações altas), autoridade (endossos de especialistas e universidades) e linguagem de alto impacto (ex: melhorar rapidamente, alcançar potencial máximo), além de gamificação com recompensas para engajamento infantil",
+  "security_risks": "Risco baixo a moderado; presença de login e assinatura implica coleta de dados pessoais de crianças e responsáveis; uso de IA para personalização pode envolver rastreamento de progresso; possui políticas legais visíveis, mas requer atenção por envolver público infantil :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://plenarinho.leg.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns; o site apresenta conteúdo educativo voltado ao público infantil com navegação lúdica (jogos, vídeos, notícias) e sem incentivos comerciais ou pressão de conversão",
+  "security_risks": "Baixo risco; site institucional da Câmara dos Deputados com política de privacidade alinhada à LGPD e transparência no uso de dados; possíveis coletas limitadas em cadastros ou interações (ex: clubinho, formulários) :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://pbskids.org/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns; o site é voltado para educação infantil, sem publicidade comercial direta, sem compras internas e com navegação lúdica focada em jogos e vídeos educativos",
+  "security_risks": "Baixo risco; a plataforma declara não coletar informações pessoais identificáveis de crianças e não utilizar dados para publicidade, embora utilize cookies e coleta limitada de dados de uso e localização aproximada para personalização e melhoria do serviço",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.nasa.gov/learning-resources/nasa-kids-club/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados padrões manipulativos; o site oferece jogos educativos gratuitos sem anúncios, sem compras internas e sem pressão de conversão, com foco em aprendizado e exploração científica para crianças",
+  "security_risks": "Baixo risco; o site é operado por uma agência governamental (NASA), com políticas claras de privacidade, coleta limitada de dados e conformidade com leis como COPPA para proteção infantil; utiliza cookies e coleta automática básica para melhoria do serviço",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://turminha.mpf.mp.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns; o site apresenta conteúdo educativo e lúdico voltado à cidadania infantil, com navegação livre, ausência de monetização, sem pressão de conversão e sem uso de técnicas persuasivas comerciais",
+  "security_risks": "Baixo risco; site institucional do Ministério Público Federal, informa claramente que não realiza vendas nem solicita pagamentos, coleta dados apenas via cadastro opcional e cookies, com armazenamento protegido e sem compartilhamento com terceiros :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.cbeebies.com/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o site é voltado ao público infantil com conteúdo educativo e interativo (jogos, vídeos) sem pressão comercial direta ou técnicas agressivas de conversão",
+  "security_risks": "Baixo risco; domínio antigo e confiável, com HTTPS válido e vinculado à BBC, sem histórico de blacklist e com alta reputação de segurança; possível uso de cookies e dados de navegação para personalização básica :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://storylineonline.net/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o site é gratuito, sem anúncios e sem pressão comercial, com foco em leitura infantil; há incentivo opcional a doações, mas sem uso de técnicas agressivas de conversão",
+  "security_risks": "Baixo a moderado; uso de cookies e serviços de terceiros como Google Analytics e YouTube pode envolver coleta indireta de dados de navegação; possível dependência de plataformas externas para reprodução de vídeos; algumas análises indicam ausência de HTTPS consistente e bibliotecas com vulnerabilidades potenciais :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://scratch.mit.edu/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns clássicos; a plataforma é gratuita, sem pressão comercial direta ou compras internas; porém há elementos de engajamento social como curtidas, seguidores e comentários que podem incentivar comportamento de busca por validação social",
+  "security_risks": "Risco moderado; apesar de ser considerado seguro e legítimo com SSL válido e boa reputação :contentReference[oaicite:0]{index=0}, há preocupações relacionadas à moderação da comunidade, incluindo relatos de conteúdo inadequado, bans injustos e possíveis interações entre usuários jovens :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://chc.org.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns relevantes; o site apresenta conteúdo educativo (revista científica infantil) com navegação informativa, sem pressão agressiva de conversão; há oferta de assinatura, mas de forma transparente e não intrusiva",
+  "security_risks": "Baixo risco; possui HTTPS válido e é mantido por organização consolidada (Instituto Ciência Hoje); coleta dados básicos como nome, e-mail e informações de uso para personalização e comunicação, conforme política de privacidade :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://code.org/pt-BR",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns clássicos; a plataforma é gratuita, sem anúncios e sem monetização direta; há elementos de engajamento como recompensas, progresso e incentivo contínuo durante lições, mas com finalidade educacional e não comercial",
+  "security_risks": "Baixo a moderado; coleta dados básicos para funcionamento (ex: nome, idade, progresso), com criptografia e sem venda de dados; exige consentimento parental para menores e pode envolver compartilhamento controlado de projetos; possíveis riscos associados a interações e exibição pública limitada de conteúdo :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://poki.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de anúncios integrados aos jogos e recomendação contínua de novos jogos (infinite scroll/loop de conteúdo), uso de personalização e cookies para direcionamento de conteúdo e anúncios, além de possível incentivo prolongado ao uso (engajamento contínuo típico de plataformas de jogos)",
+  "security_risks": "Baixo a moderado; utiliza HTTPS válido e não requer downloads (reduz risco de malware), porém faz uso de cookies, coleta de dados de navegação e exibe anúncios personalizados, o que pode envolver rastreamento e compartilhamento com terceiros :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.clickjogos.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de anúncios frequentes integrados à navegação e aos jogos, recomendação contínua de novos conteúdos (loop/infinite scroll), estímulo prolongado ao engajamento e possível uso de notificações visuais chamativas; elementos típicos de plataformas de jogos gratuitos que podem influenciar o comportamento do usuário",
+  "security_risks": "Risco baixo a moderado; site utiliza HTTPS válido e possui longa existência no mercado :contentReference[oaicite:0]{index=0}, sem alertas relevantes de segurança :contentReference[oaicite:1]{index=1}; porém há uso de anúncios e possíveis scripts de terceiros, o que pode envolver rastreamento de dados e exposição indireta a conteúdos externos",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.roblox.com/pt",
+  "manipulative_design": true,
+  "patterns_detected": "Uso intenso de gamificação com recompensas, moedas virtuais (Robux) e compras dentro da plataforma (in-app purchases), incentivo contínuo ao engajamento (loops de jogos e progressão), monetização por itens, assinaturas e vantagens, além de publicidade imersiva para usuários 13+ e promoção de experiências patrocinadas; presença de elementos sociais (likes, seguidores, interação) que estimulam retenção e comportamento recorrente",
+  "security_risks": "Risco moderado a alto; envolve interação social aberta entre usuários (incluindo menores), possibilidade de exposição a conteúdo inadequado e comunicação com desconhecidos, além de coleta de dados e uso de sistemas de monetização; apesar de políticas de segurança e restrições para menores, há preocupações recorrentes sobre moderação e proteção infantil :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.lolgames.com.br/genio-quiz/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de mecânicas de frustração proposital (perguntas com pegadinhas e respostas não intuitivas), reinício completo ao erro (punição exagerada), incentivo à repetição contínua (loop de tentativa e erro), além de potencial uso de anúncios e estímulos para prolongar o tempo de permanência; esse tipo de quiz é conhecido por usar desafios 'troll' que aumentam engajamento :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco moderado; sites de jogos agregados costumam incluir scripts e anúncios de terceiros, o que pode envolver rastreamento, cookies e redirecionamentos; ausência clara de políticas robustas pode indicar menor transparência no tratamento de dados",
+  "confidence_level": "média"
+},
+{
+  "name": "www.youtube.com/@DiscoveryKidsBR",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de autoplay, recomendações algorítmicas contínuas e incentivo à inscrição no canal; presença de elementos de engajamento como likes, comentários e notificações; possível exposição a conteúdo sugerido fora do contexto infantil; estratégias de retenção como thumbnails chamativas e playlists automáticas",
+  "security_risks": "Risco moderado; embora o conteúdo seja infantil e educativo, a plataforma YouTube coleta dados extensivos de navegação e utiliza algoritmos de recomendação; possibilidade de exposição a anúncios e conteúdos externos dependendo da navegação; interação social limitada pode ocorrer via comentários :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.cartoonnetwork.ca",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de publicidade e promoção de conteúdos (anúncios antes de vídeos e banners), links para produtos e seção de compras que podem incentivar consumo infantil, além de uso de personagens e conteúdo envolvente para retenção; embora não excessivamente agressivo, há elementos comerciais e de engajamento contínuo típicos de plataformas de entretenimento infantil",
+  "security_risks": "Baixo a moderado; site é considerado confiável e seguro com HTTPS válido e boa reputação :contentReference[oaicite:0]{index=0}, porém possui práticas de publicidade e possível coleta de dados para anúncios e personalização, com avaliação de privacidade apontando limitações e uso de dados para fins não educacionais :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.disney.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de forte branding emocional com personagens e franquias populares, promoção cruzada de produtos e serviços (ex: Disney+), incentivo a cadastro e opt-in para comunicações de marketing, além de estratégias de engajamento e retenção voltadas ao público infantil; presença de ofertas e benefícios condicionados à assinatura e aceitação de comunicações promocionais :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site oficial de grande empresa com alta reputação e tráfego relevante :contentReference[oaicite:1]{index=1}, porém pode envolver coleta de dados para marketing e personalização; há relatos conflitantes sobre implementação de HTTPS/SSL em algumas análises externas :contentReference[oaicite:2]{index=2}, além de integração com serviços e plataformas externas",
+  "confidence_level": "média"
+},
+{
+  "name": "https://www.nickelodeon.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de branding forte com personagens infantis, promoção de conteúdos e franquias, integração com produtos e experiências (cross-promotion), elementos visuais altamente atrativos e estímulo contínuo ao consumo de mídia; possível presença de publicidade indireta e estratégias de engajamento prolongado voltadas ao público infantil",
+  "security_risks": "Risco moderado; embora existam políticas específicas para proteção infantil e limitação de coleta de dados sensíveis, há uso de cookies e identificadores para personalização e publicidade em partes do serviço :contentReference[oaicite:0]{index=0}; integração com serviços e links externos pode expor usuários a políticas de terceiros; crianças são particularmente vulneráveis à influência de conteúdo e publicidade digital :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.youtubekids.com",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de recomendações automáticas e personalização de conteúdo com base no histórico de visualização, possibilidade de autoplay que prolonga o consumo contínuo, interface altamente visual e envolvente voltada à retenção infantil; apesar de controles parentais, há incentivo indireto ao engajamento prolongado por meio de vídeos sequenciais e sugestões automatizadas",
+  "security_risks": "Risco moderado; embora não colete dados pessoais diretos como nome ou endereço, a plataforma coleta dados de uso, dispositivo e histórico para personalização de conteúdo :contentReference[oaicite:0]{index=0}; exibe anúncios limitados (não personalizados) em formato de vídeo :contentReference[oaicite:1]{index=1}; há preocupações documentadas sobre exposição ocasional a conteúdo inadequado e limitações na moderação automatizada :contentReference[oaicite:2]{index=2}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.escolagames.com.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o site apresenta jogos educativos gratuitos organizados por categorias e idade, com navegação simples e foco pedagógico; pode haver estímulos de engajamento típicos de jogos (repetição e progressão), mas sem evidência de manipulação comercial direta",
+  "security_risks": "Baixo a moderado; presença de anúncios e possíveis scripts de terceiros podem envolver uso de cookies e rastreamento de navegação; ausência de informações muito detalhadas de privacidade em destaque pode indicar menor transparência sobre coleta de dados",
+  "confidence_level": "média"
+},
+{
+  "name": "www.coquinhos.com",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de anúncios como principal forma de monetização (ad-supported), grande volume de jogos com recomendação contínua (loop de conteúdo/infinite scroll), estímulo ao engajamento prolongado por meio de múltiplas categorias e jogos em sequência; embora o site declare não promover vício, a estrutura favorece uso contínuo típico de plataformas de jogos",
+  "security_risks": "Risco baixo a moderado; possui HTTPS e é considerado relativamente seguro :contentReference[oaicite:0]{index=0}, porém utiliza publicidade de terceiros para manter o serviço gratuito :contentReference[oaicite:1]{index=1}, o que pode envolver rastreamento, cookies e possíveis redirecionamentos externos; ausência de forte reputação pública pode exigir cautela adicional",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.fortune-tiger.net/",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de linguagem persuasiva com promessas de ganhos elevados (ex: \"ganhe até 2500x\"), incentivo ao jogo imediato (call-to-action como demo grátis e download), estímulos de recompensa variável (multiplicadores, respins), e exploração de vieses cognitivos típicos de jogos de azar (ilusão de controle, expectativa de ganhos); design voltado para retenção e repetição contínua",
+  "security_risks": "Risco alto; envolve jogo de azar não regulamentado no Brasil :contentReference[oaicite:0]{index=0}, com possibilidade de perdas financeiras significativas e ausência de garantias legais; há forte associação com plataformas falsas que prometem ganhos e podem aplicar golpes ou dificultar saques :contentReference[oaicite:1]{index=1}; sites similares frequentemente são recentes, com baixa transparência e confiabilidade limitada :contentReference[oaicite:2]{index=2}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.amazon.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de dark patterns documentados em fluxos de assinatura (ex: Amazon Prime), incluindo inscrição facilitada e cancelamento complexo (obstruction/roach motel), interface que favorece opções de assinatura (interface interference), uso de recomendações personalizadas e gatilhos de consumo (cross-selling, urgência e escassez), além de possível drip pricing e ocultação de informações relevantes até etapas avançadas do checkout",
+  "security_risks": "Risco moderado; embora seja uma plataforma altamente segura com infraestrutura robusta, há coleta extensiva de dados de comportamento e compras que podem revelar informações sensíveis sobre o usuário; histórico mostra preocupações regulatórias relacionadas a privacidade e consentimento, além de integração com múltiplos serviços e terceiros :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.shein.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Fortes evidências de dark patterns documentados: uso de contadores regressivos e falsas urgências, alertas de estoque baixo potencialmente enganosos, pop-ups que pressionam a conclusão da compra, infinite scroll, notificações frequentes e técnicas de confirm shaming; também há práticas como descontos potencialmente falsos e pressão psicológica para consumo excessivo :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco moderado a alto; coleta extensa de dados de comportamento para personalização e marketing, possível uso intensivo de cookies e rastreamento; investigações regulatórias apontam falta de transparência, possíveis práticas enganosas e riscos relacionados a produtos de terceiros e algoritmos de recomendação :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.shopee.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de dark patterns comuns em e-commerce: uso de contadores de tempo e promoções com urgência, notificações frequentes, recomendações personalizadas e gamificação (cupons, moedas e recompensas), além de possíveis práticas de interface que incentivam compras impulsivas e retenção prolongada",
+  "security_risks": "Risco moderado a alto; há histórico de incidentes envolvendo vazamento de dados de usuários, incluindo exposição de informações pessoais e de pagamento confirmada por autoridades :contentReference[oaicite:0]{index=0}, além de relatos recorrentes de possíveis falhas na proteção de dados e uso indevido por terceiros :contentReference[oaicite:1]{index=1}; a plataforma coleta grande volume de dados comportamentais para personalização",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.smartkids.com.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o site apresenta atividades e jogos educativos com navegação simples (links diretos para jogos e conteúdos), sem evidência de pressão comercial agressiva ou técnicas de manipulação comportamental",
+  "security_risks": "Baixo a moderado; o site possui HTTPS válido e existe há muitos anos, o que indica certa confiabilidade, porém há pouca transparência institucional e ausência de reputação consolidada em plataformas públicas; pode haver coleta básica de dados e uso de cookies, além de possível exposição a conteúdos externos :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "média"
+},
+{
+  "name": "http://www.bolofofos.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Uso intensivo de personagens infantis e branding emocional para engajamento, promoção de produtos e conteúdos (cross-promotion como músicas, vídeos e itens licenciados), estímulo à permanência por meio de vídeos e conteúdos sequenciais; possível uso de estratégias de retenção voltadas ao público infantil, ainda que não explicitamente agressivas",
+  "security_risks": "Risco moderado; pode haver coleta de dados via cookies e integração com plataformas externas (ex: vídeos e lojas), além de redirecionamentos para e-commerce associado; políticas de privacidade existem mas indicam uso de cookies e compartilhamento de dados com terceiros para operação e anúncios :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "média"
+},
+{
+  "name": "https://www.patatipatata.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de branding emocional forte com personagens infantis, promoção de produtos e conteúdos licenciados (loja, eventos, aplicativos), estímulo à adesão a fã-clube e consumo de mídia; presença de múltiplas seções voltadas a engajamento contínuo (vídeos, jogos, redes sociais) e cross-promotion entre conteúdos e produtos da marca :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site institucional com foco em entretenimento infantil, porém pode envolver coleta de dados via formulários, cookies e integração com plataformas externas (redes sociais, vídeos); ausência de transparência destacada sobre políticas de privacidade pode indicar menor clareza no tratamento de dados",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.tocaboca.com/",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros no website institucional; foco informativo voltado a pais e responsáveis, sem pressão direta de compra ou conversão; porém, no ecossistema de apps da marca há monetização via compras internas (conteúdos adicionais), o que pode incentivar consumo recorrente, embora com controles parentais",
+  "security_risks": "Baixo a moderado; o site declara não coletar dados pessoais em páginas infantis e limitar a coleta ao mínimo necessário, com conformidade a GDPR e certificação COPPA Safe Harbor :contentReference[oaicite:0]{index=0}; ainda assim, há coleta de dados técnicos (dispositivo, uso, localização) e integração com terceiros (ex: YouTube, serviços de analytics), o que pode envolver rastreamento indireto",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.galinhapintadinha.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Forte uso de branding emocional voltado ao público infantil (personagens, cores vibrantes e apelo afetivo), promoção cruzada de produtos (loja, aplicativos, shows, eventos e hospedagens), múltiplos call-to-actions como \"compre agora\" e \"visite nossa lojinha\", além de ecossistema integrado que incentiva consumo contínuo de conteúdo e produtos; estratégia alinhada a marketing digital e licenciamento extensivo da marca",
+  "security_risks": "Risco baixo a moderado; site oficial com HTTPS, porém envolve redirecionamentos para e-commerce, aplicativos e serviços externos; pode haver coleta de dados via cookies e formulários; forte presença de produtos licenciados e integrações amplia superfície de exposição a terceiros :contentReference[oaicite:0]{index=0}",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.turmadamonica.uol.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Forte uso de branding emocional com personagens infantis e apelo afetivo, ampla promoção cruzada de conteúdos e produtos (apps, games, streaming, parques, resorts e lojas oficiais), múltiplos links para plataformas externas (Globoplay, Prime Video, HBO Max, TikTok), além de estímulo contínuo ao engajamento em diferentes mídias; estrutura de ecossistema que incentiva consumo recorrente e retenção do usuário :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site institucional confiável, porém com grande integração a serviços externos e plataformas de terceiros, o que pode envolver coleta de dados via cookies, redirecionamentos e políticas de privacidade distintas entre serviços; possível exposição ampliada devido à navegação entre múltiplos ambientes digitais :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.mundobita.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso intenso de branding emocional com personagens infantis e linguagem afetiva, promoção cruzada de conteúdos e produtos (vídeos, aplicativos, lojinha, shows e redes sociais), estímulo ao engajamento contínuo por meio de vídeos e links externos; estrutura de ecossistema que incentiva consumo recorrente e permanência prolongada no universo da marca :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site institucional com conteúdo infantil e sem sinais diretos de práticas maliciosas, porém inclui redirecionamentos para plataformas externas (YouTube, loja, redes sociais) e pode envolver uso de cookies e coleta básica de dados; ausência de reputação consolidada em plataformas públicas pode indicar menor transparência operacional :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.3palavrinhas.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de branding emocional voltado ao público infantil e familiar (personagens, linguagem afetiva e religiosa), promoção cruzada de produtos e serviços (loja, shows, aplicativos e clube), presença de prova social (números de inscritos, visualizações e depoimentos), além de chamadas de ação recorrentes como \"baixe agora\", \"acesse a loja\" e \"contrate\" que incentivam conversão e engajamento contínuo :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site institucional com HTTPS e conteúdo voltado a crianças, porém há coleta de dados via formulários (ex: envio de testemunhos) e integração com serviços externos (YouTube, loja e aplicativos), o que pode envolver cookies e compartilhamento de dados com terceiros :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "www.oshowdaluna.com.br",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de branding emocional voltado ao público infantil (personagens, cores vibrantes e narrativa envolvente), promoção cruzada de conteúdos e produtos licenciados (brinquedos, roupas, livros, aplicativos e eventos), além de redirecionamentos para plataformas externas e lojas; estrutura de ecossistema que incentiva engajamento contínuo e consumo recorrente associado à marca :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco moderado; o site utiliza scripts de terceiros como Google Analytics e Facebook Pixel, além de chamadas externas (ex: lookup de IP), o que pode envolver rastreamento de dados; também há indícios de uso misto de HTTP/HTTPS em recursos e ausência de políticas detalhadas evidentes em todas as páginas :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://iguinho.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de estratégias de engajamento contínuo (grande volume de jogos, animações e navegação em loop), promoção cruzada de produtos em seção de lojinha (livros, DVDs, brinquedos) e incentivo indireto à permanência prolongada; também há instruções para definir o site como página inicial do navegador, caracterizando prática de lock-in/obstruction :contentReference[oaicite:0]{index=0}; uso de personagens e conteúdo infantil para retenção",
+  "security_risks": "Baixo a moderado; site antigo e com HTTPS válido, o que indica estabilidade e segurança básica :contentReference[oaicite:1]{index=1}, porém pode envolver coleta de dados via interações (clubes, envio de conteúdo) e possíveis integrações externas; ausência de informações modernas e detalhadas de privacidade pode indicar menor transparência",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://plazasesamo.com/pt-br/?code=BR",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o site apresenta conteúdo educativo infantil (jogos, músicas e vídeos) com navegação livre e sem pressão comercial direta; não há evidências de publicidade comportamental ou técnicas agressivas de conversão",
+  "security_risks": "Baixo a moderado; coleta dados pessoais apenas quando fornecidos voluntariamente e dados anônimos automaticamente (ex: IP, dispositivo, localização geral) para melhorar o serviço :contentReference[oaicite:0]{index=0}; uso de cookies e ferramentas de terceiros (como analytics) pode envolver rastreamento básico; links para plataformas externas podem expor usuários a políticas diferentes :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://kids.nationalgeographic.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de publicidade e promoção recorrente (ex: anúncios e convites para assinatura da revista), além de integração de conteúdo editorial com elementos promocionais; uso de quizzes, jogos e vídeos que incentivam engajamento contínuo; presença de anúncios e chamadas de assinatura em diversas páginas, podendo influenciar comportamento infantil :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site considerado seguro com alta reputação e SSL válido :contentReference[oaicite:1]{index=1}, porém coleta dados via cookies, formulários e serviços de terceiros (incluindo publicidade e analytics); avaliações indicam possíveis preocupações com uso de dados para anúncios e práticas de privacidade não totalmente ideais :contentReference[oaicite:2]{index=2}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://senninha.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Uso de branding emocional forte com personagem infantil associado a Ayrton Senna, promoção direta de produtos (brinquedos, roupas) com chamadas como \"comprar agora\", cross-promotion entre conteúdos (jogos, vídeos, histórias) e loja, além de estímulo ao engajamento contínuo por meio de experiências interativas e gamificação; estrutura de ecossistema que incentiva consumo e permanência prolongada :contentReference[oaicite:0]{index=0}",
+  "security_risks": "Risco baixo a moderado; site oficial com produtos licenciados e sem indícios de práticas maliciosas, porém envolve e-commerce (coleta de dados pessoais e de pagamento), possíveis cookies e integrações com terceiros; ausência de destaque claro para políticas detalhadas pode reduzir transparência",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.lego.com/pt-br/kids",
+  "manipulative_design": false,
+  "patterns_detected": "Não foram identificados dark patterns claros; o ambiente é projetado para crianças com foco em criatividade e exploração, sem anúncios de terceiros e com regras que proíbem publicidade dentro das interações; há elementos de engajamento (jogos, desafios e conteúdo recomendado), mas com finalidade educativa e recreativa, não comercial",
+  "security_risks": "Baixo a moderado; a plataforma coleta dados pessoais limitados com consentimento parental e segue regulamentações para proteção infantil, incluindo verificação de responsáveis e limitação de dados coletados :contentReference[oaicite:0]{index=0}; pode haver uso de cookies e integração com serviços de terceiros, além de compartilhamento controlado de dados entre plataformas LEGO :contentReference[oaicite:1]{index=1}",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://medium.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Presença de paywall parcial (metered paywall) que limita leitura gratuita e incentiva assinatura, personalização algorítmica de conteúdo com base no comportamento (histórico de leitura, cliques, interações), recomendações contínuas e notificações para retenção; uso de elementos sociais como claps, seguidores e destaques que incentivam engajamento e validação social",
+  "security_risks": "Risco moderado; coleta ampla de dados de uso (histórico de leitura, cliques, tempo de permanência), informações de dispositivo e IP, além de uso de cookies e rastreadores de terceiros como analytics :contentReference[oaicite:0]{index=0}; integração com embeds externos pode compartilhar dados com terceiros (ex: vídeos, redes sociais) :contentReference[oaicite:1]{index=1}; perfis e interações podem ser públicos e indexados por buscadores :contentReference[oaicite:2]{index=2}",
+  "confidence_level": "alta"
+}
