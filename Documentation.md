@@ -43,22 +43,24 @@ python main.py
 
 A IDE utilizará o interpretador Python atualmente selecionado.
 
-Obs: Esta opção estará disponível apenas se a extensão Python estiver instalada. Caso contrário, acesse a aba **Extensões** (`Ctrl + Shift + X`), pesquise por **Python** e instale a extensão oficial da Microsoft.
+Obs: Esta opção estará disponível apenas se a extensão Python estiver instalada. Por padrão, elas são instaladas automaticamente no GitHub Codespaces. Caso ocorra algum erro ou caso esteja utilizando outra IDE, acesse a aba **Extensões** (`Ctrl + Shift + X`), pesquise por **Python** e instale a extensão oficial da Microsoft.
 
 ---
 
 
 ## ⚠️ Erro de Biblioteca Não Encontrada (`ModuleNotFoundError`)
 
-Se ocorrer erro informando que uma biblioteca não foi encontrada, normalmente significa que o botão **Run ▶** está usando um Python diferente daquele onde as dependências foram instaladas.
+Se ocorrer erro informando que uma biblioteca não foi encontrada, normalmente significa que o botão **Run ▶** está utilizando um interpretador Python diferente daquele onde as dependências foram instaladas.
 
 ### 🔍 Como Verificar o Python em Uso
 
-Execute o script abaixo presente no projeto:
+Abra o arquivo abaixo presente no projeto:
 
-```bash
-python Verificacoes_integridade/run.py
+```text
+Verificacoes_integridade/run.py
 ```
+
+Em seguida, clique no botão **Run ▶**.
 
 Esse script exibirá:
 
@@ -86,7 +88,7 @@ Após isso, o botão **Run ▶** passará a utilizar o novo ambiente.
 
 ## ✅ Recomendação Final
 
-Sempre utilize os comandos abaixo para evitar conflitos entre versões:
+É recomendado utilizar os comandos abaixo para evitar conflitos entre versões:
 
 ```bash
 python -m pip install -r requirements.txt

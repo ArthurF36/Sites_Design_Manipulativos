@@ -1,0 +1,315 @@
+{
+    "name": "[http://www.ludoeducativo.com.br/pt/](http://www.ludoeducativo.com.br/pt/)",
+    "manipulative_design": false,
+    "patterns_detected": "Não presente",
+    "security_risks": "Nenhum risco imediato detectado; site institucional e educativo",
+    "confidence_level": "alta"
+},
+{
+    "name": "[https://www.fafaconta.com.br](https://www.fafaconta.com.br)",
+    "manipulative_design": false,
+    "patterns_detected": "Não presente",
+    "security_risks": "Nenhum risco detectado; site focado em conteúdo educativo e contação de histórias",
+    "confidence_level": "alta"
+},
+{
+  "name": "[https://www.palavracantada.com.br](https://www.palavracantada.com.br)",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Baixo risco; site utiliza HTTPS e mantém foco em conteúdos educativos e institucionais",
+  "confidence_level": "alta"
+},
+{
+  "name": "[https://www.khanacademy.org/kids](https://www.khanacademy.org/kids)",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; a plataforma é explicitamente livre de anúncios e assinaturas (100% gratuita)",
+  "confidence_level": "alta"
+},
+{
+"name": "https://futura.frm.org.br/",
+"manipulative_design": false,
+"patterns_detected": "Não presente",
+"security_risks": "Nenhum risco detectado; site institucional com foco pedagógico e sem barreiras de acesso",
+"confidence_level": "alta"
+},
+{
+  "name": "[https://www.smartick.com/](https://www.smartick.com/)",
+  "manipulative_design": true,
+  "patterns_detected": "Urgência e Escassez (Uso de 'Try 7 days free' com foco em conversão imediata); Camuflagem (Dificuldade em visualizar preços reais sem cadastro prévio)",
+  "security_risks": "Risco moderado de 'Sneaky Subscription' (cobrança automática após período de teste se não houver cancelamento claro)",
+  "confidence_level": "media"
+},
+{
+"name": "https://plenarinho.leg.br/",
+"manipulative_design": false,
+"patterns_detected": "Não presente",
+"security_risks": "Nenhum risco detectado; site governamental educativo, livre de anúncios, cobranças ou coleta de dados abusiva",
+"confidence_level": "alta"
+},
+{
+  "name": "[https://pbskids.org/](https://pbskids.org/)",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; plataforma educativa pública, sem anúncios de terceiros ou táticas de monetização agressiva",
+  "confidence_level": "alta"
+},
+{
+"name": "https://www.nasa.gov/learning-resources/nasa-kids-club/",
+"manipulative_design": false,
+"patterns_detected": "Não presente",
+"security_risks": "Nenhum risco detectado; site governamental (gov) altamente seguro, sem fins lucrativos e sem publicidade",
+"confidence_level": "alta"
+},
+{
+  "name": "[https://turminha.mpf.mp.br/](https://turminha.mpf.mp.br/)",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; site institucional público voltado à educação cidadã",
+  "confidence_level": "alta"
+},
+{
+"name": "https://www.cbeebies.com/",
+"manipulative_design": false,
+"patterns_detected": "Não presente",
+"security_risks": "Baixo risco; site mantido pela BBC Studios com propósitos educativos e recreativos, apresentando transparência sobre cookies e termos de uso",
+"confidence_level": "alta"
+},
+{
+"name": "https://storylineonline.net/",
+"manipulative_design": false,
+"patterns_detected": "Não presente",
+"security_risks": "Nenhum risco detectado; site mantido por fundação sem fins lucrativos (SAG-AFTRA), focado em alfabetização e gratuito",
+"confidence_level": "alta"
+},
+{
+  "name": "https://scratch.mit.edu/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; plataforma educacional sem fins lucrativos mantida pelo MIT, sem anúncios ou táticas de monetização agressiva",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://chc.org.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; site educativo e institucional mantido pelo Instituto Ciência Hoje",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://code.org/pt-BR",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Nenhum risco detectado; plataforma educacional global sem fins lucrativos, transparente quanto ao uso de cookies e sem publicidade de terceiros",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://poki.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Engajamento por Recompensa e Gamificação (Uso intensivo de ícones de fogo 'populares' e layouts infinitos para maximizar o tempo de tela); Anúncios Camuflados (Potencial de anúncios intersticiais ou vídeos obrigatórios antes do início dos jogos, embora o site afirme 'sem distrações')",
+  "security_risks": "Risco de privacidade e rastreamento de dados para fins publicitários (AdTech); exposição a conteúdos variados (embora exista uma versão 'Poki Kids', a página principal mistura temas infantis e adultos como tiro/zumbi)",
+  "confidence_level": "media"
+},
+{
+  "name": "https://www.clickjogos.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Anúncios Camuflados (Frequente uso de anúncios que se parecem com o conteúdo do jogo); Gamificação para Retenção (Uso de 'Mais Jogados' e categorias em destaque para manter o usuário navegando infinitamente); Pop-ups de Consentimento Complexos (Embora use AdOpt, a gestão de cookies e rastreamento publicitário pode ser confusa para crianças)",
+  "security_risks": "Risco moderado de privacidade devido ao ecossistema de AdTech (rastreamento para publicidade segmentada); exposição a conteúdos variados que, embora monitorados, podem incluir temas como 'Terror' ou jogos com violência leve",
+  "confidence_level": "media"
+},
+{
+  "name": "https://www.roblox.com/pt",
+  "manipulative_design": true,
+  "patterns_detected": "Moeda Virtual Confusa (Uso de Robux mascara o valor real em dinheiro, facilitando gastos impulsivos); FOMO e Escassez (Itens limitados na loja de avatares); Gamificação de Gastos (Sistemas de 'loot boxes' e passes em jogos criados por usuários); Design de Retenção (Sistemas de login diário e notificações para maximizar o tempo de uso)",
+  "security_risks": "Risco alto de segurança social (Exposição a interações com estranhos e riscos de aliciamento ou bullying); Risco financeiro (Facilidade de compras in-app sem supervisão); Privacidade (Coleta extensiva de dados comportamentais e de perfil)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.lolgames.com.br/genio-quiz/",
+  "manipulative_design": true,
+  "patterns_detected": "Anúncios Intersticiais e Obstrutivos (Uso de anúncios de tela cheia que interrompem o fluxo do jogo); Botões de Download Falsos (Anúncios que imitam elementos da interface para induzir o clique); Indução ao Erro (O formato do jogo 'Gênio Quiz' foca na frustração do usuário, o que pode aumentar a vulnerabilidade a cliques acidentais em publicidade)",
+  "security_risks": "Risco de Redirecionamento (Anúncios que podem levar a sites de terceiros com baixa reputação); Risco de Privacidade (Redes de anúncios agressivas que coletam dados de navegação via cookies de terceiros); Falta de Transparência (Dificuldade em distinguir o conteúdo do jogo da publicidade)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.youtube.com/@DiscoveryKidsBR",
+  "manipulative_design": true,
+  "patterns_detected": "Design de Retenção Infinita (Algoritmos de recomendação e reprodução automática 'Autoplay' projetados para manter a criança assistindo); Publicidade Contextual camuflada (Conteúdos que funcionam como 'merchandising' de brinquedos e produtos da franquia); 'Rabbit Hole' (Sugestão de vídeos em cascata que podem levar a conteúdos menos moderados fora do canal oficial)",
+  "security_risks": "Risco de Privacidade (Coleta de dados comportamentais pelo ecossistema Google/YouTube); Impacto Cognitivo (Exposição prolongada a estímulos rápidos e recompensas imediatas; o YouTube Kids é a alternativa recomendada para mitigar esses riscos)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.cartoonnetwork.ca/",
+  "manipulative_design": true,
+  "patterns_detected": "Pressão de Assinatura (Foco excessivo em direcionar o usuário para serviços de streaming pagos como StackTV e Teletoon+); Camuflagem de Saída (Uso de 'anúncios de autopromoção' que parecem conteúdo, mas levam a lojas de aplicativos ou serviços de assinatura externos); Coleta de Dados de Terceiros (Presença de rastreadores para fins de publicidade direcionada de acordo com a política da Corus Entertainment)",
+  "security_risks": "Risco de Redirecionamento (Links externos para plataformas de compra e assinatura sem verificação de idade robusta no clique inicial); Risco de Privacidade (Perfilamento de audiência para redes de publicidade da Corus Entertainment)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.disney.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Anúncios Disfarçados (Conteúdo editorial e jogos que funcionam como publicidade para filmes e produtos); Pressão de Assinatura (Destaque visual massivo para o Disney+ em quase todas as seções); Navegação Labiríntica (Dificuldade em encontrar termos de privacidade ou opções de controle parental em meio a estímulos visuais); 'Confirmshaming' (Uso de linguagem emocional para incentivar a aceitação de cookies ou newsletters)",
+  "security_risks": "Risco de Privacidade (Coleta agressiva de dados para o ecossistema de marketing da Disney); Redirecionamento Comercial (Links frequentes para lojas de produtos e serviços de assinatura que podem facilitar transações não supervisionadas por crianças)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.nickelodeon.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Anúncios Disfarçados (Uso intensivo de conteúdo que mistura jogos com promoções de séries e produtos da marca); Design de Retenção (Interfaces altamente coloridas e animadas com autoplay de vídeos para prolongar o tempo de permanência); Navegação Direcionada (Botões e menus que priorizam o acesso a serviços pagos como o Paramount+ ou download de aplicativos)",
+  "security_risks": "Risco de Privacidade (Coleta de dados de navegação por meio de rastreadores da Paramount Global para publicidade segmentada); Redirecionamento Comercial (Facilidade de saída do ambiente de jogos para áreas de compra ou assinatura sem barreiras de idade eficazes)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.youtubekids.com",
+  "manipulative_design": true,
+  "patterns_detected": "Design de Engajamento Infinito (Uso de algoritmos de recomendação e reprodução automática 'Autoplay' para manter a criança consumindo vídeos em sequência); Publicidade Contextual (Presença de anúncios 'kid-friendly' que podem ser confundidos com conteúdo, além de vídeos de 'unboxing' que incentivam o consumismo); Gamificação da Interface (Elementos visuais e sonoros exagerados que estimulam o clique e a permanência)",
+  "security_risks": "Risco de Privacidade (Coleta de dados comportamentais, como histórico de busca e tempo de visualização, para criar perfis de consumo desde cedo); Falha de Filtragem (Possibilidade de conteúdos 'Elsagate' ou vídeos inapropriados disfarçados de animações infantis passarem pelos filtros automatizados); Impacto no Desenvolvimento (Risco de exposição excessiva a conteúdos de ritmo acelerado que podem afetar a atenção e o comportamento)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.escolagames.com.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Baixo risco; site brasileiro com foco pedagógico (alinhado à BNCC), gratuito e sem sistemas de moedas virtuais ou compras internas que induzam ao gasto impulsivo",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.coquinhos.com/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente (O site é transparente sobre o uso de publicidade para manter a gratuidade e declara explicitamente não usar chats ou sistemas de compras)",
+  "security_risks": "Baixo risco; site educativo que organiza jogos por faixa etária e áreas de aprendizagem. O principal risco é a exposição a anúncios de terceiros (usados para financiar o site), mas a plataforma afirma realizar curadoria de conteúdo para manter o ambiente seguro",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.fortune-tiger.net/",
+  "manipulative_design": true,
+  "patterns_detected": "Design de Adição Extrema (Uso de cores vibrantes, sons de celebração e animações rápidas projetados para disparar dopamina e viciar); Ilusão de Ganho Fácil (Algoritmos que alternam pequenas vitórias com grandes perdas para manter o usuário esperançoso); FOMO (Notificações constantes de 'ganhadores' em tempo real para incentivar a aposta imediata); Mascaramento de Perdas (Som e animação de vitória mesmo quando o valor ganho é menor que o valor apostado)",
+  "security_risks": "Risco Financeiro Severo (Alto potencial de perda patrimonial rápida e endividamento); Risco de Engenharia Social (Uso de influenciadores para promover o jogo como fonte de renda, o que é falso); Vulnerabilidade de Dados (Muitas plataformas 'mirror' do jogo operam em paraísos fiscais com pouca transparência sobre o uso de dados bancários e pessoais); Risco Legal (Operação frequentemente vinculada a sites não licenciados ou sob investigação policial no Brasil)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.amazon.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Dificultar Cancelamento (O sistema 'Project Iliad' foi criado especificamente para complicar o cancelamento do Prime); Inscrição Forçada/Enganosa (Interfaces que induzem o usuário a assinar o Prime durante o checkout sem consentimento claro); 'Confirmshaming' (Uso de linguagem que faz o usuário se sentir culpado ou prejudicado ao recusar ofertas); Escassez Falsa e Urgência (Cronômetros de 'oferta termina em' para pressionar a compra)",
+  "security_risks": "Risco de Privacidade (Perfilamento massivo de dados de consumo e comportamento); Abuso de Tokens (Vulnerabilidades em serviços como Amazon Cognito podem permitir que invasores mantenham acesso persistente); Risco Financeiro (Facilidade de compras indesejadas por 'um clique' e renovações automáticas dificultadas)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.shein.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Urgência e Escassez Falsa (Cronômetros de contagem regressiva para 'ofertas relâmpago' e avisos de estoque baixo); Pressão Social (Notificações de 'X pessoas compraram isso nas últimas 24 horas'); Gamificação Excessiva (Sistemas de pontos e check-ins diários para viciar o usuário no app); Custos Ocultos (Dificuldade inicial em visualizar taxas de importação ou ICMS antes das etapas finais de checkout)",
+  "security_risks": "Risco de Privacidade (Coleta massiva de dados de navegação e comportamento para publicidade direcionada); Risco de Transação (Interfaces que facilitam compras por impulso; histórico de vazamento de dados de usuários em larga escala no passado)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.shopee.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Urgência e Escassez (Uso intensivo de cronômetros para 'Ofertas Relâmpago' e avisos de 'só mais X unidades'); Gamificação Extrema (Sistemas de moedas, recompensas por login diário e jogos internos para aumentar a retenção); Prova Social Pressionada (Destaque para o número massivo de vendas, como '124mil+ vendidos', para induzir confiança rápida); Promoções Enganosas (Layout focado em 'Datas Duplas' e cupons que muitas vezes exigem gastos mínimos ocultos)",
+  "security_risks": "Risco de Privacidade (Coleta extensiva de dados comportamentais e rastreamento para anúncios segmentados); Risco de Transação (Interfaces projetadas para facilitar a compra por impulso e renovações automáticas; presença de vendedores de terceiros com reputação variada que exige cautela do usuário)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.smartkids.com.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente",
+  "security_risks": "Risco moderado de privacidade devido ao uso de anúncios de terceiros (AdSense/Doubleclick) que coletam dados de navegação para publicidade; Interface datada que pode levar a cliques acidentais em banners publicitários externos",
+  "confidence_level": "alta"
+},
+{
+  "name": "http://www.bolofofos.com/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente (O site atua principalmente como um hub de conteúdo para vídeos do YouTube e informações institucionais/agenda de shows)",
+  "security_risks": "Risco de Redirecionamento (O site incentiva fortemente a saída para o YouTube e Facebook, onde a moderação de comentários e algoritmos de recomendação fogem do controle do ambiente seguro do site oficial); Risco de Privacidade (Uso de cookies de rastreamento do Google/YouTube integrados nos players de vídeo)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.patatipatata.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Publicidade Nativa/Conteúdo Híbrido (Integração direta de marcas como 'Lavitan' e 'Floffy' dentro da experiência de entretenimento infantil); Coleta de Dados ('Fã-Clube' que incentiva o cadastro de crianças/famílias para fins de marketing direto); Design de Redirecionamento (Forte foco em levar o usuário para o YouTube e lojas de aplicativos externos para consumo de produtos pagos)",
+  "security_risks": "Risco de Privacidade (Captação de dados de menores via formulários de fã-clube); Risco de Transação (Links de pré-venda e publicidade de brinquedos que podem induzir a pedidos de compra não supervisionados)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.tocaboca.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Gatekeeping Etário (Uso de 'Portão de Pais' ou perguntas de idade que são facilmente contornáveis por crianças); Promoção Cruzada de IAPs (O site funciona como um catálogo para pacotes de móveis e roupas dentro do jogo, incentivando compras in-app); Urgência Artificial (Uso de termos como 'Limited Time' para pacotes de colaboração, como o da Pusheen, para criar FOMO); 'Confirmshaming' na Gestão de Cookies (A interface de consentimento de cookies pode ser complexa para o público jovem)",
+  "security_risks": "Risco de Transação (O site direciona constantemente para lojas de terceiros onde compras podem ser feitas sem supervisão robusta se o dispositivo não estiver configurado); Privacidade (Coleta de dados para 'personalizar a experiência' e para parceiros de publicidade conforme o painel de cookies da OneTrust)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.galinhapintadinha.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Publicidade Contextual (Integração de produtos licenciados como fraldas Babysec e resorts Cana Brava no fluxo de entretenimento); 'Rabbit Hole' de Redirecionamento (Interface desenhada para mover o usuário constantemente para o YouTube ou lojas de aplicativos); Coleta de Leads (Uso de newsletter e 'Fã-Clube' para captar dados de contato de famílias para marketing direto); Estímulo ao Consumismo (Seção 'Loja da Popó' integrada visualmente como se fosse parte do conteúdo educativo)",
+  "security_risks": "Risco de Privacidade (Uso de cookies de terceiros para rastreamento comportamental e captação de dados via newsletter); Risco de Transação (Facilidade de acesso a links de compra e reservas de viagens que podem ser acessados por crianças sem barreiras de idade robustas)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://turmadamonica.uol.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Publicidade Nativa e Cross-Selling (O site funciona como um catálogo de vendas para serviços de terceiros, como Prime Video, Globoplay e resorts); Redirecionamento constante (A interface é projetada para levar o usuário para fora do site original, incentivando assinaturas e compras de ingressos); Coleta de Dados via Cookies (Uso de tecnologias de rastreamento do portal UOL para fins de publicidade e perfilamento); Camuflagem Comercial (Promoção de apps e jogos que possuem compras internas 'In-App Purchases' sem aviso prévio claro na home)",
+  "security_risks": "Risco de Privacidade (Compartilhamento de dados de navegação com o ecossistema UOL e parceiros de publicidade); Risco de Transação (Facilidade de acesso a links de compra de ingressos e reservas de hotéis que podem ser acessados por menores de idade sem uma barreira de verificação robusta)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.mundobita.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Redirecionamento para Consumo (Interface focada em encaminhar a criança/família para o YouTube e lojas de aplicativos); Camuflagem Comercial (Seção 'Diversão' que mescla clipes musicais com links diretos para a 'Lojinha do Bita'); Estímulo ao Consumismo (Destaque visual para produtos físicos como DVDs e brinquedos integrados ao ambiente de entretenimento)",
+  "security_risks": "Risco de Privacidade (Uso de players do YouTube incorporados que utilizam cookies de rastreamento comportamental do Google); Risco de Transação (Acesso facilitado a lojas externas de e-commerce e aplicativos com compras internas, sem barreiras de idade robustas no redirecionamento)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.3palavrinhas.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Redirecionamento para Consumo (Interface projetada para converter visitantes em audiência no YouTube e compradores na loja oficial); Camuflagem Comercial (Conteúdos 'gratuitos' como atividades para baixar são usados como 'isca' para captar leads e promover a marca); Publicidade Nativa de Produtos (Destaque visual para bíblias, lancheiras e roupas integrados ao discurso de valores familiares e religiosos); 'Social Proof' (Uso ostensivo de métricas de bilhões de visualizações e testemunhos emocionais para validar a confiança e incentivar a adesão)",
+  "security_risks": "Risco de Privacidade (Captação de dados pessoais através de formulários de testemunhos e newsletters para fins de marketing); Risco de Transação (Links diretos para lojas externas e contratação de shows que podem ser acessados sem verificação de idade eficaz); Risco de Rastreamento (Uso de pixels de rastreamento de redes sociais e Google para perfilamento de público cristão infantil/familiar)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.oshowdaluna.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Camuflagem Comercial (Seções de 'Novidades' que promovem diretamente revistas de colorir, adesivos e outros produtos licenciados como se fossem conteúdo educativo); Redirecionamento de Audiência (Interface focada em encaminhar o usuário para o YouTube e serviços de streaming pagos como Discovery Kids, Max e Netflix); Estímulo ao Consumismo (Integração visual de 'Lojinha' e agenda de shows para incentivar gastos imediatos da família); 'Rabbit Hole' de Conteúdo (Links para playlists infinitas no YouTube que podem levar a vídeos menos moderados fora do controle do site)",
+  "security_risks": "Risco de Privacidade (Uso de players integrados e scripts de rastreamento que coletam dados comportamentais para fins de marketing); Risco de Transação (Acesso direto a links de e-commerce e vendas de ingressos sem barreiras de idade eficazes para prevenir cliques acidentais de crianças)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://iguinho.com.br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente (O site mantém uma estrutura clássica de portal de conteúdo infantil dos anos 2000, sem mecanismos modernos de gamificação predatória ou urgência)",
+  "security_risks": "Risco de Privacidade (Uso de tecnologias legadas e redirecionamentos para redes sociais externas como Facebook e Instagram); Publicidade Direta (Promoção ostensiva das propriedades intelectuais da criadora, como livros e filmes, integrados ao menu de navegação); Interface Datada (Pode facilitar cliques acidentais em anúncios de terceiros que ocupam espaços de destaque)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://plazasesamo.com/pt-br/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente (O site utiliza barreiras de segurança legítimas, como 'portões de pais' com equações matemáticas para acessar áreas de adultos, e não apresenta mecanismos de urgência ou gamificação predatória)",
+  "security_risks": "Baixo risco; o site é mantido pela Sesame Workshop (organização sem fins lucrativos) com foco pedagógico. O principal risco é o redirecionamento para serviços de terceiros como Netflix ou YouTube para assistir episódios completos, onde o controle de privacidade passa a ser dessas plataformas",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://kids.nationalgeographic.com/",
+  "manipulative_design": false,
+  "patterns_detected": "Não presente (O site foca em conteúdo educacional e curiosidades, utilizando uma navegação clara e lúdica sem gatilhos de urgência ou gamificação predatória)",
+  "security_risks": "Risco de Redirecionamento (O site promove assinaturas da revista física e livros da marca, direcionando para a loja principal da Disney/National Geographic); Privacidade (Coleta de dados para personalização de conteúdo e publicidade de parceiros, embora siga diretrizes rígidas de privacidade infantil como a COPPA)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://senninha.com.br/",
+  "manipulative_design": true,
+  "patterns_detected": "Publicidade Nativa (Venda de produtos licenciados como brinquedos e máscaras integrada ao conteúdo lúdico); Gamificação para Engajamento Comercial (Uso do 'Gameventura' para manter a criança conectada à marca enquanto promove o ecossistema de produtos); Coleta de Dados via Newsletter (Incentivo ao cadastro para receber novidades, focado em marketing direto para famílias)",
+  "security_risks": "Risco de Privacidade (Uso de rastreadores para perfilamento de interesse em produtos licenciados); Risco de Transação (O site atua como vitrine que direciona para e-commerces de terceiros ou lojas oficiais do Instituto Ayrton Senna, facilitando o desejo de compra sem barreiras de idade intermediárias)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://www.lego.com/pt-br/kids",
+  "manipulative_design": true,
+  "patterns_detected": "Camuflagem Comercial (Integração perfeita entre jogos gratuitos e catálogos de produtos, transformando a diversão em um desejo de compra); Gamificação com Foco em Produto (Uso de mini-jogos e vídeos que servem como demonstrações interativas de conjuntos LEGO específicos); 'Wishlist' Induzida (Interfaces que encorajam a criança a marcar itens como favoritos, gerando listas de desejos que pressionam os pais a comprar); Coleta de Dados via LEGO ID (Incentivo à criação de contas para 'desbloquear' conquistas, capturando dados comportamentais desde cedo)",
+  "security_risks": "Risco de Transação (O site de 'kids' está a apenas um clique da loja oficial, facilitando o acesso a preços e botões de compra); Risco de Privacidade (Perfilamento de interesses baseado nos jogos e temas favoritos da criança para publicidade direcionada através da conta LEGO)",
+  "confidence_level": "alta"
+},
+{
+  "name": "https://medium.com/",
+  "manipulative_design": true,
+  "patterns_detected": "Hard Paywall (Bloqueio abrupto de conteúdo após um limite de leitura, frequentemente sem aviso prévio claro); Forced Continuity (Uso de 'soft paywalls' que incentivam o login apenas para rastrear o histórico de leitura e limitar o acesso gratuito); Confirmshaming (Uso de botões de 'Não, quero continuar lendo de graça' com design visualmente inferior ou linguagem que desvaloriza a escolha do usuário); Nagging (Interrupções frequentes com pop-ups e banners solicitando inscrição na newsletter ou upgrade para conta Premium durante a leitura)",
+  "security_risks": "Privacidade de Dados (Rastreamento extensivo de interesses de leitura para criar perfis comportamentais e segmentação de anúncios/conteúdo); Risco de Transação (Modelos de assinatura que facilitam a entrada, mas que podem ter processos de cancelamento mais complexos ou cobranças automáticas após períodos de teste)",
+  "confidence_level": "alta"
+}
