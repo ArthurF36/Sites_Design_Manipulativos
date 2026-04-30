@@ -1,6 +1,8 @@
 import json
+import re
+import pandas as pd
 
-def converter_Txt(caminho_arquivo: str):
+def converter_Txt(caminho_arquivo: str) -> pd.DataFrame:
     # Iniciamos a lista vazia para evitar erros caso a leitura falhe
     lista_json = []
 
@@ -9,12 +11,12 @@ def converter_Txt(caminho_arquivo: str):
             conteudo = f.read().strip()
             
             if not conteudo:
+                print("Lista vazía")
                 return [] # Retorna lista vazia se o arquivo estiver em branco
 
-            # Remove a última vírgula se ela existir
-            if conteudo.endswith(','):
-                conteudo = conteudo[:-1]
-            
+            # Remove vírgulas e espaços extras no final
+            conteudo = conteudo.rstrip(', \n\t')
+
             # Converte para lista JSON
             json_formatado = f"[{conteudo}]"
             lista_json = json.loads(json_formatado)
@@ -23,9 +25,13 @@ def converter_Txt(caminho_arquivo: str):
         print(f"Erro crítico de sintaxe JSON no arquivo: {e}")
         return [] # Retorna vazio pois os dados estão corrompidos
 
-    # Limpeza dos links (só acontece se a lista_json for preenchida)
+    # Limpeza dos links
     for item in lista_json:
-        if "name" in item and "](" in item["name"]:
-            item["name"] = item["name"].split('](')[1].replace(')', '')
+        if "name" in item:
+            match = re.search(r'\]\((.*?)\)', item["name"])
+            if match:
+                item["name"] = match.group(1)
 
-    return lista_json
+    df = pd.DataFrame(lista_json)
+
+    return df
