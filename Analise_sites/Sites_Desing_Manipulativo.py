@@ -4,6 +4,8 @@ import json
 from datetime import datetime
 from bs4 import BeautifulSoup
 
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from Buscar_Dados.obter_Key import obter_configuracoes_api as get_key
 from Tratar_dados.Menu import Menu
 
