@@ -3,7 +3,6 @@ import re
 import pandas as pd
 
 def converter_Txt(caminho_arquivo: str) -> pd.DataFrame:
-    # Iniciamos a lista vazia para evitar erros caso a leitura falhe
     lista_json = []
 
     try:
@@ -11,27 +10,39 @@ def converter_Txt(caminho_arquivo: str) -> pd.DataFrame:
             conteudo = f.read().strip()
             
             if not conteudo:
-                print("Lista vazía")
-                return [] # Retorna lista vazia se o arquivo estiver em branco
+                print("Lista vazia")
+                return pd.DataFrame()  # melhor retornar DataFrame vazio
 
-            # Remove vírgulas e espaços extras no final
             conteudo = conteudo.rstrip(', \n\t')
-
-            # Converte para lista JSON
             json_formatado = f"[{conteudo}]"
             lista_json = json.loads(json_formatado)
 
     except json.JSONDecodeError as e:
         print(f"Erro crítico de sintaxe JSON no arquivo: {e}")
-        return [] # Retorna vazio pois os dados estão corrompidos
+        return pd.DataFrame()
 
     # Limpeza dos links
     for item in lista_json:
         if "name" in item:
-            match = re.search(r'\]\((.*?)\)', item["name"])
+            match = re.search(r'\]\((.*?)\)', str(item["name"]))
+            
             if match:
-                item["name"] = match.group(1)
+                url = match.group(1)
+            else:
+                url = item["name"]
+            
+            # Ajusta protocolo
+            item["name"] = ajustar_url(url)
 
     df = pd.DataFrame(lista_json)
-
     return df
+
+def ajustar_url(url):
+    url = str(url).strip()
+    
+    if url.startswith("https://"):
+        return url
+    elif url.startswith("http://"):
+        return url.replace("http://", "https://", 1)
+    else:
+        return "https://" + url

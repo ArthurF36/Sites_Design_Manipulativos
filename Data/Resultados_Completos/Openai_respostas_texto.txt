@@ -139,21 +139,21 @@
   "confidence_level": "alta"
 },
 {
-  "name": "www.cartoonnetwork.ca",
+  "name": "www.cartoonnetwork.ca/",
   "manipulative_design": true,
   "patterns_detected": "Presença de publicidade e promoção de conteúdos (anúncios antes de vídeos e banners), links para produtos e seção de compras que podem incentivar consumo infantil, além de uso de personagens e conteúdo envolvente para retenção; embora não excessivamente agressivo, há elementos comerciais e de engajamento contínuo típicos de plataformas de entretenimento infantil",
   "security_risks": "Baixo a moderado; site é considerado confiável e seguro com HTTPS válido e boa reputação :contentReference[oaicite:0]{index=0}, porém possui práticas de publicidade e possível coleta de dados para anúncios e personalização, com avaliação de privacidade apontando limitações e uso de dados para fins não educacionais :contentReference[oaicite:1]{index=1}",
   "confidence_level": "alta"
 },
 {
-  "name": "https://www.disney.com.br",
+  "name": "https://www.disney.com.br/",
   "manipulative_design": true,
   "patterns_detected": "Uso de forte branding emocional com personagens e franquias populares, promoção cruzada de produtos e serviços (ex: Disney+), incentivo a cadastro e opt-in para comunicações de marketing, além de estratégias de engajamento e retenção voltadas ao público infantil; presença de ofertas e benefícios condicionados à assinatura e aceitação de comunicações promocionais :contentReference[oaicite:0]{index=0}",
   "security_risks": "Risco baixo a moderado; site oficial de grande empresa com alta reputação e tráfego relevante :contentReference[oaicite:1]{index=1}, porém pode envolver coleta de dados para marketing e personalização; há relatos conflitantes sobre implementação de HTTPS/SSL em algumas análises externas :contentReference[oaicite:2]{index=2}, além de integração com serviços e plataformas externas",
   "confidence_level": "média"
 },
 {
-  "name": "https://www.nickelodeon.com.br",
+  "name": "https://www.nickelodeon.com.br/",
   "manipulative_design": true,
   "patterns_detected": "Uso de branding forte com personagens infantis, promoção de conteúdos e franquias, integração com produtos e experiências (cross-promotion), elementos visuais altamente atrativos e estímulo contínuo ao consumo de mídia; possível presença de publicidade indireta e estratégias de engajamento prolongado voltadas ao público infantil",
   "security_risks": "Risco moderado; embora existam políticas específicas para proteção infantil e limitação de coleta de dados sensíveis, há uso de cookies e identificadores para personalização e publicidade em partes do serviço :contentReference[oaicite:0]{index=0}; integração com serviços e links externos pode expor usuários a políticas de terceiros; crianças são particularmente vulneráveis à influência de conteúdo e publicidade digital :contentReference[oaicite:1]{index=1}",
@@ -174,7 +174,7 @@
   "confidence_level": "média"
 },
 {
-  "name": "www.coquinhos.com",
+  "name": "www.coquinhos.com/",
   "manipulative_design": true,
   "patterns_detected": "Presença de anúncios como principal forma de monetização (ad-supported), grande volume de jogos com recomendação contínua (loop de conteúdo/infinite scroll), estímulo ao engajamento prolongado por meio de múltiplas categorias e jogos em sequência; embora o site declare não promover vício, a estrutura favorece uso contínuo típico de plataformas de jogos",
   "security_risks": "Risco baixo a moderado; possui HTTPS e é considerado relativamente seguro :contentReference[oaicite:0]{index=0}, porém utiliza publicidade de terceiros para manter o serviço gratuito :contentReference[oaicite:1]{index=1}, o que pode envolver rastreamento, cookies e possíveis redirecionamentos externos; ausência de forte reputação pública pode exigir cautela adicional",
@@ -195,7 +195,7 @@
   "confidence_level": "alta"
 },
 {
-  "name": "https://www.shein.com/",
+  "name": "https://www.shein.com.br/",
   "manipulative_design": true,
   "patterns_detected": "Fortes evidências de dark patterns documentados: uso de contadores regressivos e falsas urgências, alertas de estoque baixo potencialmente enganosos, pop-ups que pressionam a conclusão da compra, infinite scroll, notificações frequentes e técnicas de confirm shaming; também há práticas como descontos potencialmente falsos e pressão psicológica para consumo excessivo :contentReference[oaicite:0]{index=0}",
   "security_risks": "Risco moderado a alto; coleta extensa de dados de comportamento para personalização e marketing, possível uso intensivo de cookies e rastreamento; investigações regulatórias apontam falta de transparência, possíveis práticas enganosas e riscos relacionados a produtos de terceiros e algoritmos de recomendação :contentReference[oaicite:1]{index=1}",
