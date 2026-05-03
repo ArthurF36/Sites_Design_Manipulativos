@@ -1,71 +1,105 @@
-# Sites_Design_Manipulativos
+# 🌑 Design_Manipulativos
 
-Projeto desenvolvido para analisar sites e identificar padrões
-manipulativos (Manipulative Design) utilizando inteligência artificial, com
-integração com modelos da OpenAI e Google Gemini.
+Projeto desenvolvido para analisar sites e identificar padrões manipulativos (**Manipulative Design / Dark Patterns**) utilizando inteligência artificial, com integração com modelos da OpenAI e Google Gemini.
 
-OBJETIVO
+📄 Para melhor entendimento da estrutura e uso do projeto, acesse:
+`Documentation/Documentation_Overview.md`
 
--   Identificar práticas de design manipulativo em websites
--   Detectar possíveis riscos de segurança
--   Comparar resultados entre diferentes modelos de IA
--   Gerar relatórios estruturados em formato Excel
+---
 
-TECNOLOGIAS UTILIZADAS
+## 🎯 OBJETIVO
 
--   Python 3.x
--   OpenAI API
--   Google Gemini API
--   Pandas
--   Requests
--   BeautifulSoup
--   OpenPyXL
--   Matplotlib / Seaborn
+* Identificar práticas de design manipulativo em websites
+* Detectar possíveis riscos de segurança
+* Comparar resultados entre diferentes modelos de IA
+* Gerar relatórios estruturados em formato Excel
 
-CONFIGURAÇÃO
+---
 
-1.  Instalar dependências no terminal: pip install -r requirements.txt
+## 🛠️ TECNOLOGIAS UTILIZADAS
 
-2.  Inicializar o código python no terminal com: 
+* Python 3.x
+* OpenAI API
+* Google Gemini API
+* Pandas
+* Requests
+* BeautifulSoup
+* OpenPyXL
+* Matplotlib / Seaborn
 
-- python Atividade_Dark_Patterns/Gemini_Atv.py
-- python Atividade_Dark_Patterns/Openai_Atv.py
+---
 
-CONFIGURAÇÃO DAS APIs
+## 🔑 CONFIGURAÇÃO DAS APIs
 
-- Google Gemini: export GOOGLE_API_KEY=“sua_chave_aqui”
-- OpenAI: export OPENAI_API_KEY=“sua_chave_aqui”
+Antes de rodar o projeto, configure suas chaves de API:
 
-ENTRADA DE DADOS
+### Google Gemini
 
--   Data/sites.txt
--   Data/sites_educativos.txt
+```bash
+export GOOGLE_API_KEY="sua_chave_aqui"
+```
 
-SAÍDA DE DADOS
+### OpenAI
 
--   Pasta Data_resultados/
+```bash
+export OPENAI_API_KEY="sua_chave_aqui"
+```
 
-Inclui: - URL analisada - Presença de dark patterns - Tipos detectados -
-Riscos de segurança - Nível de confiança
+---
 
-ANÁLISE
+## 📥 ENTRADA DE DADOS
 
-Notebook: Notebook/graficos_Dark_Buster.ipynb
+Os dados de entrada estão localizados em:
 
-OBSERVAÇÕES
+* `Data/sites_diversos.txt`
+* `Data/sites_educativos.txt`
 
--   Alguns sites podem bloquear requisições automáticas
--   A qualidade depende do modelo de IA
--   Necessário internet
+---
 
-MELHORIAS FUTURAS
+## 📤 SAÍDA DE DADOS
 
--   Interface web
--   Mais modelos de IA
--   Classificação mais detalhada
--   Automação de relatórios
+Os resultados são salvos na pasta:
 
-AUTOR
+```text
+Data/Resultados_Atuais
+```
 
-Projeto acadêmico voltado para estudo de IA aplicada à detecção de
-padrões manipulativos na web.
+### 📊 Os relatórios incluem:
+
+* URL analisada
+* Presença de designs manipulativos
+* Riscos de segurança
+* Nível de confiança
+
+---
+
+## 📊 ANÁLISE
+
+A análise visual dos dados pode ser feita no notebook:
+
+```text
+Notebook/grafico_Respostas_Sites.ipynb
+```
+
+---
+
+## ⚠️ OBSERVAÇÕES
+
+* Alguns sites podem bloquear requisições automáticas
+* A qualidade dos resultados depende do modelo de IA utilizado
+* É necessário conexão com a internet
+
+---
+
+## 🚀 MELHORIAS FUTURAS
+
+* Interface web
+* Integração com mais modelos de IA
+* Classificação mais detalhada
+* Automação completa de relatórios
+
+---
+
+## 👨‍💻 AUTOR
+
+Projeto acadêmico voltado para estudo de **IA aplicada à detecção de padrões manipulativos na web**.
